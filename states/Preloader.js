@@ -5,7 +5,7 @@ Preloader.prototype={
     preload:function(){
         this.game.load.image('laser',"assets/images/bullet0.png");
         this.game.load.spritesheet("fruits","assets/images/fruits.png",32,32);
-        this.game.load.spritesheet("player","assets/images/dude.png");
+        this.game.load.spritesheet("player","assets/images/dude.png",32,48);
     },
     create:function(){
         this.game.state.start('Game');
